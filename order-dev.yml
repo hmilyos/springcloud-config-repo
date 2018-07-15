@@ -1,13 +1,16 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
 spring:
   application:
-    name: config
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/hmilyos/springcloud-config-repo.git
-          username: 928968518@qq.com
-          password: mingming07
-#          basedir: /Users/admin/code/myProjects/java/imooc/SpringCloud_Sell/config/basedir
+    name: order
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.0.4:3306/SpringCloud_Sell?characterEncoding=utf-8
+    username: root
+    password: Osming07.
+  jpa:
+    show-sql: true
 env:
   dev
