@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hmilyos/springcloud-config-repo.git
+          username: 928968518@qq.com
+          password: mingming07
+env:
+  dev
