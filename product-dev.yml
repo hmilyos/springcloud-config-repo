@@ -1,6 +1,6 @@
 spring:
   application:
-    name: order
+    name: product
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.0.7:3306/SpringCloud_Sell?characterEncoding=utf-8
@@ -8,5 +8,8 @@ spring:
     password: Osming07.
   jpa:
     show-sql: true
+#  redis:
+#    host: 127.0.0.1
+#    port: 6379
 env:
-  test2
+  dev
