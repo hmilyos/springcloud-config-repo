@@ -11,5 +11,5 @@ spring:
 env:
   dev3
 test:
-  name: tom
-  age: 19
+  name: tomcat
+  age: 20
